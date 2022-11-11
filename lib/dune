@@ -1,0 +1,5 @@
+(library
+ (public_name uno_game)
+ (name uno_game)
+ (libraries core)
+ (preprocess (pps bisect_ppx ppx_deriving.show ppx_deriving.ord)))
